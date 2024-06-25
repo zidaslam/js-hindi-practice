@@ -58,3 +58,16 @@ const myFunction = function(){
 }
 console.log(typeof bigNumber);
 
+
+// memories
+// stack(primitive), Heap(Non-primitive)
+
+let userOne= {
+    name:'nitish',
+    email:'user@google.com',
+    upi:'user@ybl'
+}
+let userTwo=userOne
+userTwo.email = 'nitish@google.com'
+console.log(userOne.email);
+console.log(userTwo.email);
