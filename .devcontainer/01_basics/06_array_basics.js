@@ -29,3 +29,4 @@ console.log("E",myarray)
 console.log("c",myarray2)
 console.log(myarray2.splice(2,5))
 console.log("D",myarray2)
+//__________________________
